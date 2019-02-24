@@ -12006,3 +12006,9 @@ footer.sticky-footer .copyright {
 body.sidebar-toggled footer.sticky-footer {
   width: 100%;
 }
+
+.slide-show-item{
+  width: 100%;
+  background-color: #1cc88a;
+  /* background-image: url('pictures/dummy-image.png'); */
+}
