@@ -12,12 +12,21 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('pages/dashboard');
 });
 
 Route::get('/dashboard', function () {
     return view('pages/dashboard');
 });
+
+Route::get('/calculator', function () {
+    return view('pages/calculator');
+});
+
+Route::get('/riwayat', function () {
+    return view('pages/riwayat');
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
